@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+## Development Setup for the Official Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website is the front-end part of the Altitude Learning Grade Calculator, a Chrome extension. The website is built using Create React App.
 
-## Available Scripts
+### Prerequisites
 
-In the project directory, you can run:
+- Node.js and npm must be installed on your machine.
 
-### `npm start`
+### Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository from GitHub.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install all dependencies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Available Scripts
 
-### `npm test`
+In the project directory, you can run the following scripts:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Starting the App
 
-### `npm run build`
+- `npm start`: Runs the app in development mode at [http://localhost:3000](http://localhost:3000). The page will reload if you make edits, and you will also see any lint errors in the console.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Testing the App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `npm test`: Launches the test runner in the interactive watch mode.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Building the App for Production
 
-### `npm run eject`
+- `npm run build`: Builds the app for production to the `build` folder. It optimizes the build for the best performance, and the build is minified with filenames including the hashes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Customization
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To modify the website, start by editing the React components in the `src` folder. Create React App has many built-in features that you can utilize.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions are encouraged! If you have improvements or bug fixes, please make a pull request or open an issue in the repository.
 
-## Learn More
+### License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The website and extension are open-sourced under the MIT License. Attribution to the original creator, Stephan Yazvinski, is required for any substantial use of the code.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Support and Contact
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any queries or issues, please contact Stephan Yazvinski at [syazvinski@gmail.com](mailto:syazvinski@gmail.com).
